@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* Predefine CSS */
+.half-width {
+    width: 50%;
+}
+.full-width {
+    width: 100%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pt {
+    padding-top: 30px;
+}
+.pb {
+    padding-bottom: 30px;
+}
+.right-img img {
+	max-width: 450px;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.dflex {
+	display: flex;
+	align-items: center;
+}
+.main-title span {
+	color: #FC8B46;
+}
+.main-title {
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 69px;
+	color: #575757;
+}
+.hero-des {
+	font-size: 20px;
+	line-height: 30px;
+	color: #828282;
+}
+.btn {
+	border-radius: 30px;
+	padding: 16px 30px;
+	background: linear-gradient(orange, tomato);
+	border: navajowhite;
+	color: white;
+	font-size: 18px;
+	box-shadow: 0 0 12px 1px #ff00004f;
+	cursor: pointer;
+}
+
+.btn a {
+    color: white;
+	font-size: 18px;
+    text-decoration: none;
+}
+
+.about-us {
+	background: #FFF4ED1F;
+	background-image: url(/img/7.png);
+	background-position: center;
+	background-size: cover;
+	height: 427px;
+	padding-top: 45px;
+	margin: 20px 0px;
+}
+.about-us-img img {
+	max-width: 250px;
+}
+.about-us P {
+	max-width: 393px;
+	line-height: 28px;
+	margin-bottom: 60px;
+}
+.recepies-des {
+	max-width: 710px;
+	margin: 0 auto;
+}
+.recepies-box {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 50px;
+	padding: 20px 76px;
+	padding-top: 50px;
+}
+.blog {
+	box-shadow: 0 0 12px 1px #9690904f;
+	padding: 18px;
+	border-radius: 20px;
+}
+.third-heading {
+	margin: 0;
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+footer {
+    background: #0B0D17;
+    color: white;
+    padding: 40px 0px;
+  }
+  footer h3 {
+    font-size: 28px;
+    line-height: 0;
+  }
+  footer h3 span {
+	color: orange;
+}
