@@ -78,7 +78,7 @@ img {
 
 .about-us {
 	background: #FFF4ED1F;
-	background-image: url(/img/7.png);
+	background-image: url(./img/7.png);
 	background-position: center;
 	background-size: cover;
 	height: 427px;
